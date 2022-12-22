@@ -122,25 +122,33 @@ WSGI_APPLICATION = 'louslist.wsgi.application'
 #         }
 #     }
 
-if 'test' in sys.argv:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
-            "USER": "*"
-        }
+# if 'test' in sys.argv:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': BASE_DIR / 'db.sqlite3',
+#             "USER": "*"
+#         }
+#     }
+# else: 
+#      DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#             'NAME': "d51r39o6ig1qda",
+#             'USER': "kdevwucadzyxnu",
+#             'PASSWORD': "c00fb0e603902f4d74231266b20b3afa111dcde400565681d2570ab0b9b1eaea",
+#             'HOST': "ec2-52-1-17-228.compute-1.amazonaws.com",
+#             'PORT':  "5432"
+#         }
+#     }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        "USER": "*"
     }
-else: 
-     DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': "d51r39o6ig1qda",
-            'USER': "kdevwucadzyxnu",
-            'PASSWORD': "c00fb0e603902f4d74231266b20b3afa111dcde400565681d2570ab0b9b1eaea",
-            'HOST': "ec2-52-1-17-228.compute-1.amazonaws.com",
-            'PORT':  "5432"
-        }
-    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
