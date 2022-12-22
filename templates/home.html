@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:orange;
+  line-height:1.6;
+}
+
+#showcase{
+  background-image:url('https://img.freepik.com/free-vector/watercolor-back-school-background-with-white-space_52683-41450.jpg?w=2000');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+.footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:black;
+            color: white;
+            text-align: center;
+            height: 2em;
+        }
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  border:black 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:orange;
+  color:#fff;
+}
+
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"
+        rel="stylesheet">
+</head>
+{% if user.is_authenticated %}
+<body>
+    <header id="showcase">
+        <h1>Welcome to The New Lou's List</h1>
+        <p>UVA course searcher for the Fall 2022 Semester</p>
+        <p>You are currently logged in as {{user.username}}</p>
+        <div id="container"> 
+            <a href="/search" class="button">Search</a>
+            <a href="/search/logout" class="button">Sign Out</a>
+        </div>
+      </header>
+      <br>
+      <div class="footer">
+        <p>Created by Group A-29</p>
+    </div>
+</body>
+{%else%}
+<body>
+    <header id="showcase">
+        <h1>Welcome to The New Lou's List</h1>
+        <p>UVA course searcher for the Fall 2022 Semester</p>
+        <div id="container"> 
+            <a href="/login" class="button">Sign In</a>
+            <a href="/register" class="button">Sign Up</a>
+        </div>
+      </header>
+      <br>
+      <div class="footer">
+        <p>Created by Group A-29</p>
+    </div>
+</body>
+{%endif%}
+
+

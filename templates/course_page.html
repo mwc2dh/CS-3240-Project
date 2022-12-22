@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<html>
+
+<body>
+    <div class="container pt-4">
+        <ul class="list-group">
+            <li class="list-group-item active" aria-current="true"> {{course}}</li>
+            {%for section in course.section_set.all%}
+                <li class="list-group-item py-0">
+                    <div class="row py-1">
+                        <div class="col-1">{{section.course_number}}-{{section.course_section}}</div>
+                        <div class="col-1">{{section.units}} Unit {{section.component}}</div>
+                        <div class="col-1">{{section.enrollment_total}} / {{section.class_capacity}}</div>
+                        <div class="col-2">{{section.instructor_name}}</div>
+                        <div class="col-4">
+                            {% for meeting in section.get_meetings%}
+                                <div >{{meeting}} | {{meeting.facility_description}}</div>
+                            {%endfor%}
+                        </div>
+
+                        <div class="col-1 d-flex align-items-center">
+                            {%if section in profile.saved_sections.all%}
+                                <form class="" action="{% url 'unsave_section' %}" method="post">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="next" value="{{request.path}}"/>
+                                    <button class="btn btn-outline-primary" name="section_to_unsave" type="submit" value={{section.course_number}}>Unsave</button>
+                                </form>
+                            {% else %}
+                                <form action="{% url 'save_section' %}" method="post">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="next" value="{{request.path}}"/>
+                                    <button class="btn btn-primary" name="section_to_save" type="submit" value={{section.course_number}}>Save</button>
+                                </form>
+                            {%endif%}
+                        </div> 
+                        <div class="col-2 d-flex align-items-center">
+                            <form class="" action="{% url 'section_page' course.subject course.catalog_number section.course_number %}" method="post">
+                                {% csrf_token %}
+                                <button class="btn btn-secondary" type="submit" >Section Info</button>
+                            </form>
+                        </div> 
+
+                    </div>
+                    
+                </li>
+            {%endfor%}
+        </ul>
+        
+    </div>
+
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"
+    rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</html>
+
+{% endblock content %}

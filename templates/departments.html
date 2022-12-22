@@ -1,0 +1,605 @@
+{% extends 'base.html' %}
+{% block content %}
+{{department}}
+<ul class="list-group list-group-light list-group-small">
+    {% for course in courses %}
+    <a href="/departments/{{course.subject}}">
+        {% if course.subject == 'ACCT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Accounting </li>
+        {% endif %}
+        {% if course.subject == 'AIRS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Air Science </li>
+        {% endif %}
+        {% if course.subject == 'ALAR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Architecture and Landscape Architecture </li>
+        {% endif %}
+        {% if course.subject == 'AM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Applied Mechanics </li>
+        {% endif %}
+        {% if course.subject == 'AMST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - American Studies </li>
+        {% endif %}
+        {% if course.subject == 'ANTH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Anthropology </li>
+        {% endif %}
+        {% if course.subject == 'APMA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Applied Mathematics </li>
+        {% endif %}
+        {% if course.subject == 'ARAB' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Arabic </li>
+        {% endif %}
+        {% if course.subject == 'ARAD' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Arts Administration </li>
+        {% endif %}
+        {% if course.subject == 'ARAH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History of Art and Architecture </li>
+        {% endif %}
+        {% if course.subject == 'ARCH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Architecture </li>
+        {% endif %}
+        {% if course.subject == 'ARCY' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Archaeology </li>
+        {% endif %}
+        {% if course.subject == 'ARH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Architectural History </li>
+        {% endif %}
+        {% if course.subject == 'ARTH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History of Art </li>
+        {% endif %}
+        {% if course.subject == 'ARTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Arabic in Translation </li>
+        {% endif %}
+        {% if course.subject == 'ARTS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Studio Art </li>
+        {% endif %}
+        {% if course.subject == 'ASL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - American Sign Language </li>
+        {% endif %}
+        {% if course.subject == 'ASTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Astronomy </li>
+        {% endif %}
+        {% if course.subject == 'BIMS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Biomedical Sciences </li>
+        {% endif %}
+        {% if course.subject == 'BIOC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Biochemistry </li>
+        {% endif %}
+        {% if course.subject == 'BIOL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Biology </li>
+        {% endif %}
+        {% if course.subject == 'BIOP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Biophysics </li>
+        {% endif %}
+        {% if course.subject == 'BME' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Biomedical Engineering </li>
+        {% endif %}
+        {% if course.subject == 'BUS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Business </li>
+        {% endif %}
+        {% if course.subject == 'CASS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - College Art Scholars Seminar </li>
+        {% endif %}
+        {% if course.subject == 'CE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Civil Engineering </li>
+        {% endif %}
+        {% if course.subject == 'CELL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Cell Biology </li>
+        {% endif %}
+        {% if course.subject == 'CHE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Chemical Engineering </li>
+        {% endif %}
+        {% if course.subject == 'CHEM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Chemistry </li>
+        {% endif %}
+        {% if course.subject == 'CHIN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Chinese </li>
+        {% endif %}
+        {% if course.subject == 'CHTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Chinese in Translation </li>
+        {% endif %}
+        {% if course.subject == 'CLAS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Classics </li>
+        {% endif %}
+        {% if course.subject == 'COGS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Cognitive Science </li>
+        {% endif %}
+        {% if course.subject == 'COLA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - College Advising Seminar </li>
+        {% endif %}
+        {% if course.subject == 'COMM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Commerce </li>
+        {% endif %}
+        {% if course.subject == 'CONC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Commerce-Non-Credit</li>
+        {% endif %}
+        {% if course.subject == 'CPE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Computer Engineering </li>
+        {% endif %}
+        {% if course.subject == 'CREO' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Creole </li>
+        {% endif %}
+        {% if course.subject == 'CS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Computer Science </li>
+        {% endif %}
+        {% if course.subject == 'DANC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Dance </li>
+        {% endif %}
+        {% if course.subject == 'DEM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Democracy Initiative </li>
+        {% endif %}
+        {% if course.subject == 'DH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Digital Humanities </li>
+        {% endif %}
+        {% if course.subject == 'DRAM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Drama </li>
+        {% endif %}
+        {% if course.subject == 'DS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Dean of Data Science </li>
+        {% endif %}
+        {% if course.subject == 'EALC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - East Asian Languages, Literatures, and Cultures </li>
+        {% endif %}
+        {% if course.subject == 'EAST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - East Asian Studies </li>
+        {% endif %}
+        {% if course.subject == 'ECE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Electrical and Computer Engineering </li>
+        {% endif %}
+        {% if course.subject == 'ECON' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Economics </li>
+        {% endif %}
+        {% if course.subject == 'EDHS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Education-Human Services </li>
+        {% endif %}
+        {% if course.subject == 'EDIS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Education-Curriculum, Instruction, & Special-Ed </li>
+        {% endif %}
+        {% if course.subject == 'EDLF' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Education-Leadership, Foundations, and Policy </li>
+        {% endif %}
+        {% if course.subject == 'EDNC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Education-Non-Credit </li>
+        {% endif %}
+        {% if course.subject == 'EGMT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Engagement </li>
+        {% endif %}
+        {% if course.subject == 'ELA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Engaging the Liberal Arts </li>
+        {% endif %}
+        {% if course.subject == 'ENCW' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - English-Creative Writing </li>
+        {% endif %}
+        {% if course.subject == 'ENGL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - English Literature </li>
+        {% endif %}
+        {% if course.subject == 'ENGR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Engineering </li>
+        {% endif %}
+        {% if course.subject == 'ENTP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Entrepreneurship </li>
+        {% endif %}
+        {% if course.subject == 'ENWR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - English-Academic, Professional & Creative Writing </li>
+        {% endif %}
+        {% if course.subject == 'ESL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - English as a Second Language </li>
+        {% endif %}
+        {% if course.subject == 'ETP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Environmental Thought and Practice </li>
+        {% endif %}
+        {% if course.subject == 'EURS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - European Studies </li>
+        {% endif %}
+        {% if course.subject == 'EVAT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Environmental Sciences-Atmospheric Sciences </li>
+        {% endif %}
+        {% if course.subject == 'EVGE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Environmental Sciences-Geosciences</li>
+        {% endif %}
+        {% if course.subject == 'EVHY' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Environmental Sciences-Hydrology </li>
+        {% endif %}
+        {% if course.subject == 'EVSC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Environmental Sciences </li>
+        {% endif %}
+        {% if course.subject == 'FREN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - French </li>
+        {% endif %}
+        {% if course.subject == 'GBAC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Business Analytics Commerce </li>
+        {% endif %}
+        {% if course.subject == 'GBUS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Business </li>
+        {% endif %}
+        {% if course.subject == 'GCCS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Commerce in Culture and Society </li>
+        {% endif %}
+        {% if course.subject == 'GCNL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Clinical Nurse Leader </li>
+        {% endif %}
+        {% if course.subject == 'GCOM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Commerce </li>
+        {% endif %}
+        {% if course.subject == 'GDS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Development Studies </li>
+        {% endif %}
+        {% if course.subject == 'GERM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - German </li>
+        {% endif %}
+        {% if course.subject == 'GETR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - German in Translation </li>
+        {% endif %}
+        {% if course.subject == 'GHSS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Business </li>
+        {% endif %}
+        {% if course.subject == 'GNUR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Nursing </li>
+        {% endif %}
+        {% if course.subject == 'GREE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Greek </li>
+        {% endif %}
+        {% if course.subject == 'GSAS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Arts & Sciences </li>
+        {% endif %}
+        {% if course.subject == 'GSCI' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Graduate Biological and Physical Sciences </li>
+        {% endif %}
+        {% if course.subject == 'GSGS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Studies-Global Studies </li>
+        {% endif %}
+        {% if course.subject == 'GSMS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Studies: Middle East and South Asia </li>
+        {% endif %}
+        {% if course.subject == 'GSSJ' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Studies-Security and Injustice </li>
+        {% endif %}
+        {% if course.subject == 'GSVS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Global Studies-Environments and Sustainability </li>
+        {% endif %}
+        {% if course.subject == 'HBIO' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Human Biology </li>
+        {% endif %}
+        {% if course.subject == 'HEBR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Hebrew </li>
+        {% endif %}
+        {% if course.subject == 'HHE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Health, Humanities & Ethics </li>
+        {% endif %}
+        {% if course.subject == 'HIAF' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-African History </li>
+        {% endif %}
+        {% if course.subject == 'HIEA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-East Asian History </li>
+        {% endif %}
+        {% if course.subject == 'HIEU' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-European History </li>
+        {% endif %}
+        {% if course.subject == 'HIME' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-Middle Eastern History </li>
+        {% endif %}
+        {% if course.subject == 'HIND' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Hindi </li>
+        {% endif %}
+        {% if course.subject == 'HISA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-South Asian History </li>
+        {% endif %}
+        {% if course.subject == 'HIST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-General History </li>
+        {% endif %}
+        {% if course.subject == 'HIUS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - History-United States History </li>
+        {% endif %}
+        {% if course.subject == 'HR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Human Resources </li>
+        {% endif %}
+        {% if course.subject == 'HSCI' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - College Science Scholars Seminar </li>
+        {% endif %}
+        {% if course.subject == 'IMP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Thesis </li>
+        {% endif %}
+        {% if course.subject == 'INST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies </li>
+        {% endif %}
+        {% if course.subject == 'ISBU' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies-Business </li>
+        {% endif %}
+        {% if course.subject == 'ISHU' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies-Humanities </li>
+        {% endif %}
+        {% if course.subject == 'ISIN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies-Code of Inquiry </li>
+        {% endif %}
+        {% if course.subject == 'ISLS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies-Liberal Studies Seminar </li>
+        {% endif %}
+        {% if course.subject == 'ISSS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Interdisciplinary Studies-Social Sciences </li>
+        {% endif %}
+        {% if course.subject == 'IT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Informational Technology </li>
+        {% endif %}
+        {% if course.subject == 'ITAL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Italian </li>
+        {% endif %}
+        {% if course.subject == 'ITTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Italian in Translation </li>
+        {% endif %}
+        {% if course.subject == 'JAPN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Japanese </li>
+        {% endif %}
+        {% if course.subject == 'JPTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Japanese in Translation </li>
+        {% endif %}
+        {% if course.subject == 'KICH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Maya K'iche' </li>
+        {% endif %}
+        {% if course.subject == 'KINE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Kinesiology </li>
+        {% endif %}
+        {% if course.subject == 'KLPA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Kinesiology Lifetime Physical Activity </li>
+        {% endif %}
+        {% if course.subject == 'KOR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Korean </li>
+        {% endif %}
+        {% if course.subject == 'LAR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Landscape Architecture</li>
+        {% endif %}
+        {% if course.subject == 'LASE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Liberal Arts Seminar </li>
+        {% endif %}
+        {% if course.subject == 'LAST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Latin American Studies </li>
+        {% endif %}
+        {% if course.subject == 'LATI' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Latin </li>
+        {% endif %}
+        {% if course.subject == 'LAW' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Law </li>
+        {% endif %}
+        {% if course.subject == 'LING' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Linguistics </li>
+        {% endif %}
+        {% if course.subject == 'LNGS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - General Linguistics </li>
+        {% endif %}
+        {% if course.subject == 'LPPA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Leadership Public Policy - Analysis </li>
+        {% endif %}
+        {% if course.subject == 'LPPL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Leadership Public Policy - Leadership </li>
+        {% endif %}
+        {% if course.subject == 'LPPP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Leadership Public Policy - Policy </li>
+        {% endif %}
+        {% if course.subject == 'LPPS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Leadership Public Policy - Substance </li>
+        {% endif %}
+        {% if course.subject == 'MAE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Mechanical & Aerospace Engineering </li>
+        {% endif %}
+        {% if course.subject == 'MATH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Mathematics </li>
+        {% endif %}
+        {% if course.subject == 'MDST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Media Studies </li>
+        {% endif %}
+        {% if course.subject == 'MED' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Medicine </li>
+        {% endif %}
+        {% if course.subject == 'MESA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Middle Eastern & South Asian Languages & Cultures</li>
+        {% endif %}
+        {% if course.subject == 'MICR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Microbiology </li>
+        {% endif %}
+        {% if course.subject == 'MISC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Military Science </li>
+        {% endif %}
+        {% if course.subject == 'MSE' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Materials Science & Engineering </li>
+        {% endif %}
+        {% if course.subject == 'MUBD' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Music-Marching Band </li>
+        {% endif %}
+        {% if course.subject == 'MUEN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Music-Ensembles </li>
+        {% endif %}
+        {% if course.subject == 'MUPF' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Music-Private Performance Instruction </li>
+        {% endif %}
+        {% if course.subject == 'MUSI' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Music </li>
+        {% endif %}
+        {% if course.subject == 'NASC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Naval Science </li>
+        {% endif %}
+        {% if course.subject == 'NCPR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Non-Credit Professional Review </li>
+        {% endif %}
+        {% if course.subject == 'NESC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Neuroscience </li>
+        {% endif %}
+        {% if course.subject == 'NUCO' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Nursing Core </li>
+        {% endif %}
+        {% if course.subject == 'NUIP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Nursing Interprofessional </li>
+        {% endif %}
+        {% if course.subject == 'NURS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Nursing </li>
+        {% endif %}
+        {% if course.subject == 'PATH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Pathology </li>
+        {% endif %}
+        {% if course.subject == 'PC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Procurement and Contracts Management </li>
+        {% endif %} 
+        {% if course.subject == 'PERS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Persian </li>
+        {% endif %}
+        {% if course.subject == 'PETR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Persian in Translation</li>
+        {% endif %}
+        {% if course.subject == 'PHAR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Pharmacology </li>
+        {% endif %}
+        {% if course.subject == 'PHIL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Philosophy </li>
+        {% endif %}
+        {% if course.subject == 'PHS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Public Health Sciences </li>
+        {% endif %}
+        {% if course.subject == 'PHY' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Physiology </li>
+        {% endif %}
+        {% if course.subject == 'PHYS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Physics </li>
+        {% endif %}
+        {% if course.subject == 'PLAC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Planning Application </li>
+        {% endif %}
+        {% if course.subject == 'PLAD' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Politics-Departmental Seminar </li>
+        {% endif %}
+        {% if course.subject == 'PLAN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Urban and Environmental Planning </li>
+        {% endif %}
+        {% if course.subject == 'PLAP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Politics-American Politics </li>
+        {% endif %}
+        {% if course.subject == 'PLCP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Politics-Comparative Politics </li>
+        {% endif %}
+        {% if course.subject == 'PLIR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Politics-International Relations </li>
+        {% endif %}
+        {% if course.subject == 'PLPT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Politics-Political Theory </li>
+        {% endif %}
+        {% if course.subject == 'POL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Polish </li>
+        {% endif %}
+        {% if course.subject == 'PORT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Portuguese </li>
+        {% endif %}
+        {% if course.subject == 'POTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Portuguese in Translation </li>
+        {% endif %}
+        {% if course.subject == 'PPL' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Political Philosophy, Policy, and Law </li>
+        {% endif %}
+        {% if course.subject == 'PSHM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Professional Studies-Health Sciences Management </li>
+        {% endif %}
+        {% if course.subject == 'PSLP' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - PS-Leadership Program </li>
+        {% endif %}
+        {% if course.subject == 'PSPA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Professional Studies-Public Administration </li>
+        {% endif %}
+        {% if course.subject == 'PSPM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Professional Studies-Project Management </li>
+        {% endif %}
+        {% if course.subject == 'PSPS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Professional Studies-Public Safety </li>
+        {% endif %}
+        {% if course.subject == 'PST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Political and Social Thought </li>
+        {% endif %}
+        {% if course.subject == 'PYSC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Pyschology </li>
+        {% endif %}
+        {% if course.subject == 'RELA' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-African Religions </li>
+        {% endif %}
+        {% if course.subject == 'RELB' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Buddhism </li>
+        {% endif %}
+        {% if course.subject == 'RELC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Christianity </li>
+        {% endif %}
+        {% if course.subject == 'RELG' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-General Religion </li>
+        {% endif %}
+        {% if course.subject == 'RELH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Hinduism </li>
+        {% endif %}
+        {% if course.subject == 'RELI' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Islam </li>
+        {% endif %}
+        {% if course.subject == 'RELJ' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Judaism </li>
+        {% endif %}
+        {% if course.subject == 'RELS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Religion-Special Topics </li>
+        {% endif %}
+        {% if course.subject == 'RUSS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Russian </li>
+        {% endif %}
+        {% if course.subject == 'RUTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Russian in Translation </li>
+        {% endif %}
+        {% if course.subject == 'SANS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Sanskrit </li>
+        {% endif %}
+        {% if course.subject == 'SARC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Architecture School </li>
+        {% endif %}
+        {% if course.subject == 'SAST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - South Asian Studies </li>
+        {% endif %}
+        {% if course.subject == 'SATR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - South Asian Literature in Translation </li>
+        {% endif %}
+        {% if course.subject == 'SEC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - CYB SEC Analysis </li>
+        {% endif %}
+        {% if course.subject == 'SLAV' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Slavic </li>
+        {% endif %}
+        {% if course.subject == 'SLTR' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Slavic in Translation </li>
+        {% endif %}
+        {% if course.subject == 'SOC' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Sociology </li>
+        {% endif %}
+        {% if course.subject == 'SPAN' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Spanish </li>
+        {% endif %}
+        {% if course.subject == 'STAT' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Statistics </li>
+        {% endif %}
+        {% if course.subject == 'STS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Science, Technology, and Society </li>
+        {% endif %}
+        {% if course.subject == 'SWAH' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Swahili </li>
+        {% endif %}
+        {% if course.subject == 'SYS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Systems & Information Engineering </li>
+        {% endif %}
+        {% if course.subject == 'TURK' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Turkish </li>
+        {% endif %}
+        {% if course.subject == 'UD' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Urban Design </li>
+        {% endif %}
+        {% if course.subject == 'UNST' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - University Studies </li>
+        {% endif %}
+        {% if course.subject == 'URDU' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Urdu </li>
+        {% endif %}
+        {% if course.subject == 'USEM' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - University Seminar </li>
+        {% endif %}
+        {% if course.subject == 'WGS' %}
+            <li class="list-group-item" name="course"> {{course.subject}} - Women, Gender, and Sexuality </li>
+        {% endif %}
+    </a>
+    {%endfor%}
+</p>
+</ul>
+{% endblock content %}

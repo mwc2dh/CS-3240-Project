@@ -1,0 +1,42 @@
+<!-- Need to reformat start and end times -->
+{% extends 'base.html' %}
+{% block content %}
+
+<html>
+
+<body>
+    <div class="container mt-3">
+        {% for meeting in meetings %}
+        {% if meeting.section.instructor.name == "-" %}
+        <h1>To be announced</h1>
+        {% else %}
+        <h1>{{meeting.section.instructor.name}}</h1>
+        {% endif %}
+        <ul class="list-group list-group-light list-group-small">
+            <li class="list-group-item"> <strong>Course Number:</strong> {{meeting.section.course_number}}</li>
+            <li class="list-group-item"> <strong>Course Section:</strong> {{meeting.section.course_section}}</li>
+            <li class="list-group-item"> <strong>Section Component (# of Units):</strong> {{meeting.section.component}}
+                ({{meeting.section.units}} units) </li>
+            <li class="list-group-item"> <strong>Total Enrollment/Class Capacity:</strong>
+                {{meeting.section.enrollment_total}}/{{meeting.section.class_capacity}}
+                ({{meeting.section.enrollment_available}} seats
+                available)</li>
+            <li class="list-group-item"> <strong>Meeting Days:</strong> {{meeting.days}} </li>
+            <li class="list-group-item"> <strong>Meeting Start Time:</strong> {{meeting.start_time}} </li>
+            <li class="list-group-item"> <strong>Meeting End Time:</strong> {{meeting.end_time}} </li>
+            <li class="list-group-item"> <strong>Location:</strong> {{meeting.facility_description}} </li>
+            <br />
+        </ul>
+        {% endfor %}
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+{% endblock content %}

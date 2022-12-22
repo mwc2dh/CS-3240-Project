@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load socialaccount %}
+{% block content %}
+
+
+<html>
+    
+    <div class=" outer-div d-flex justify-content-center align-items-center">
+            <!-- <p> <strong> Search for a course or instructor: </strong> </p> -->
+        <form class="" action="{% url 'search_general_results' %}" method="get">
+<!-- <<<<<<< HEAD
+            <p class="input-ins">Department input : APMA , ECON , CS , etc </p>
+            <p class="input-ins">Course Number input : 1XXX , 2XXX , 3XXX , etc </p>
+            <p class="input-ins">Instructor input: First Name Last Name </p> -->
+            
+
+<!-- >>>>>>> parent of 3acfcb1 (input instructions added) -->
+            <input  name="q" type="text" placeholder="Search by Department, Course Number, or Instructor"  style="height:50px; width:600px"/>
+                <button class="button-9" type="submit" style="height:52px; width:100px">Search</button>
+            
+        </form>
+
+
+        
+    </div>
+<style>
+.input-ins {
+  color:black;
+  text-indent: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+}
+    .outer-div {
+        height: 80vh;
+        width: 100vw;
+    }
+        .search4 {
+
+            position: absolute;
+  right: 820px;
+  width: 300px;
+  bottom: 350px;
+  
+  
+        }
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: black;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+        .ye {
+    position: absolute;
+  
+  bottom: -1px;
+  right: -400px;
+  }
+  input {
+  text-align: center;
+}
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+}
+    </style> 
+    <!-- <img src="https://www.kget.com/wp-content/uploads/sites/2/2020/06/70af0a8f43d943ec8131175a70fffc8d.jpg?w=2560&amp;h=1440&amp;crop=1" width="700" 
+     height="500" > -->
+ <style>
+        body {
+            background-image: url("https://api.time.com/wp-content/uploads/2015/04/university-virginia.jpg?quality=85&amp;w=4000");
+            background-size: cover;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
+
+{% endblock content %}

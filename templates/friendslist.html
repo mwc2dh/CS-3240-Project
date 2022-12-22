@@ -1,0 +1,96 @@
+<!-- Need to connect enter key to search bar -->
+<!-- Need to make search bar case insensitive -->
+
+{% extends 'base.html' %}
+{% load socialaccount %}
+{% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
+
+<head  >
+    <style>
+        .searchagain {
+            padding-bottom: 2em;
+            padding-top: 1em;
+        }
+        /* body {
+            background-image: url("https://cdn.wallpapersafari.com/83/35/x16Cwg.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        } */
+
+        .friend{
+            font-weight: bold;
+            font: 80;
+            /* font-style: italic; */
+            text-align: center;
+            max-width: fit-content;
+            background-color: white;
+            
+        }
+    </style>
+
+</head>
+
+<html >
+    <body style="background-color:black">
+<div class="container">
+
+    <div>
+        <br>
+        <center></center>
+        
+        {%if object_list%}
+            <ul class="list-group">
+                {% for profile in object_list %}
+                    <li class="list-group-item d-flex justify-content-between">
+                        <h4>{{profile}}</h4>
+                        <div class="d-flex gap-3">
+                            <a class="btn btn-outline-info" style="background-color:black ; background:white;" href="{% url 'profile_detail_view' profile.user.username%}">View profile</a>
+
+                            <form class="" action="{% url 'unfriend_user' %}" method="post">
+                                {% csrf_token %}
+                                
+                                <button class="btn btn-primary" name="username" type="submit" style="background-color:red ;"
+                                    value={{profile.user.username}}>Unfriend <span class= "bi bi-trash"></span></button>
+                            </form>
+                        
+                        </div>
+                    </li>
+                    {% comment %} {%if profile in current_user_profile.friends.all%}
+                        <form class="mb-2" action="{% url 'unfriend_user' %}" method="post">
+                            {% csrf_token %}
+                            
+                            <button class="btn btn-outline-primary py-0" name="username" type="submit" style="background-color:red ;"
+                                value={{profile.user.username}}>Unfriend<span class= "bi bi-trash"></span></button>
+                        </form>
+                    {% else %}
+
+                        <form class="mb-2" action="{% url 'friend_user' %}" method="post">
+                            {% csrf_token %}
+                            
+                            <button class="btn btn-outline-primary py-0" name="username" type="submit" value="{{profile.user.username}}">Friend
+                                User</button>
+                        </form>
+
+                    {% endif %} {% endcomment %}
+                               
+                {% endfor %}
+            </ul>
+        {%else%}
+            <p class="text-danger">You haven't friended anyone!</p>
+        {% endif%}
+
+
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
+
+{% endblock content %}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<html>
+
+<body>
+    <h1 class="text-center">  Courses with catalog number {{catalog_number}} </h1>
+    <div class="container">
+        <ul class="list-group list-group-light list-group-small" id="courses">
+            {% for section in sections %}
+            <a href="/departments/{{section.subject}}/{{section.catalog_number}}/{{section.description}}/info">
+                <li class="list-group-item" name="course"> {{section.subject}} {{section.catalog_number}}:
+                    {{section.description}}
+                </li>
+            </a>
+            <!-- <form method="POST">
+                {% csrf_token %}
+                
+                <input type="submit" class="btn" name="add_to_saved" value="{{department}}, {{section.catalog_number}}, {{section.description}} "/> -->
+            <form method="POST">
+                {% csrf_token %}
+                <!-- <input hidden type="submit" class="btn" name="info" value="test"/> -->
+                <div1>
+                    <button>
+
+                        <input type="hidden" id="form1" class="btn" name="add_to_saved"
+                            value="{{section.subject}}, {{section.catalog_number}}, {{section.description}} " />
+                        Save</button>
+                    <!-- <label for="form1">Save</label> -->
+                </div1>
+            </form>
+            {%endfor%}
+        </ul>
+        {% if not sections %}
+        </br>
+        <center>There are no courses associated with {{catalog_number}}. Please enter a valid catalog numbers.</center>
+        {% endif %}
+    </div>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"
+    rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
+
+{% endblock content %}
