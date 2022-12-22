@@ -1,0 +1,2130 @@
+[
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19053,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "6513",
+        "description": "Social Issues in Medicine I",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 152,
+        "enrollment_available": 8,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19069,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7100",
+        "description": "Foundations of Clinical Medicine 1A",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 152,
+        "enrollment_available": 8,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19075,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7102",
+        "description": "Foundations of Clinical Medicine 1C",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 158,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19074,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7421",
+        "description": "Patient Student Partnership 1A",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 152,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19076,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7423",
+        "description": "Patient Student Partnership 1C",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 158,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19066,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7751",
+        "description": "Integrated Systems I",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 152,
+        "enrollment_available": 8,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19067,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "7753",
+        "description": "Integrated Systems III",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 156,
+        "enrollment_available": 4,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19068,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8000",
+        "description": "UVA Transfer Credit",
+        "units": "1 - 12",
+        "component": "LEC",
+        "class_capacity": 1,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 0,
+        "enrollment_available": 1,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19077,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8101",
+        "description": "Foundations of Clinical Medicine 2",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 200,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 115,
+        "enrollment_available": 85,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19534,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8101",
+        "description": "Foundations of Clinical Medicine 2",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 35,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19094,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8107",
+        "description": "Transition Course",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 122,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19541,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8107",
+        "description": "Transition Course",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 35,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19083,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8422",
+        "description": "Patient Student Partnership 2B",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 115,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19533,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8422",
+        "description": "Patient Student Partnership 2B",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 35,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19082,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8600",
+        "description": "Intersession Course",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19054,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8642",
+        "description": "Internal Medicine Clerkship",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 20,
+        "enrollment_available": 140,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19515,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8642",
+        "description": "Internal Medicine Clerkship",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 6,
+        "enrollment_available": 154,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19055,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8642",
+        "description": "Internal Medicine Clerkship",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 20,
+        "enrollment_available": 140,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19516,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "8642",
+        "description": "Internal Medicine Clerkship",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 5,
+        "enrollment_available": 155,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19056,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8648",
+        "description": "Pediatrics",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 20,
+        "enrollment_available": 140,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19517,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8648",
+        "description": "Pediatrics",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 6,
+        "enrollment_available": 154,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19057,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8648",
+        "description": "Pediatrics",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 19,
+        "enrollment_available": 141,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19518,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "8648",
+        "description": "Pediatrics",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 6,
+        "enrollment_available": 154,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19058,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 9,
+        "enrollment_available": 151,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19519,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19059,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19520,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19060,
+        "semester_code": 1228,
+        "course_section": "005",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19521,
+        "semester_code": 1228,
+        "course_section": "006",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19072,
+        "semester_code": 1228,
+        "course_section": "007",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19527,
+        "semester_code": 1228,
+        "course_section": "008",
+        "subject": "MED",
+        "catalog_number": "8652",
+        "description": "Psychiatry",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19084,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8653",
+        "description": "Preventive, Acute, and Chronic Longitudinal Ambulatory Care",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 20,
+        "enrollment_available": 10,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19535,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8653",
+        "description": "Preventive, Acute, and Chronic Longitudinal Ambulatory Care",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 5,
+        "enrollment_available": 25,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19085,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8653",
+        "description": "Preventive, Acute, and Chronic Longitudinal Ambulatory Care",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 20,
+        "enrollment_available": 10,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19536,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "8653",
+        "description": "Preventive, Acute, and Chronic Longitudinal Ambulatory Care",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 6,
+        "enrollment_available": 24,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19087,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8654",
+        "description": "Surgery, Anesthesiology, Obstetrics & Gynecology Clerkship",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 36,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19538,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8654",
+        "description": "Surgery, Anesthesiology, Obstetrics & Gynecology Clerkship",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 12,
+        "enrollment_available": 18,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19088,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8671",
+        "description": "Clinical Electives",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 1,
+        "enrollment_available": 159,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19061,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19522,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19062,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 9,
+        "enrollment_available": 151,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19523,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19063,
+        "semester_code": 1228,
+        "course_section": "005",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19524,
+        "semester_code": 1228,
+        "course_section": "006",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19073,
+        "semester_code": 1228,
+        "course_section": "007",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 150,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19530,
+        "semester_code": 1228,
+        "course_section": "008",
+        "subject": "MED",
+        "catalog_number": "8672",
+        "description": "Neurology",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 160,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 157,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19064,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "8698",
+        "description": "Research",
+        "units": "0",
+        "component": "IND",
+        "class_capacity": 15,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 1,
+        "enrollment_available": 14,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20298,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 11,
+        "enrollment_available": 19,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20299,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20300,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 12,
+        "enrollment_available": 18,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20301,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 4,
+        "enrollment_available": 26,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20302,
+        "semester_code": 1228,
+        "course_section": "005",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 11,
+        "enrollment_available": 19,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20303,
+        "semester_code": 1228,
+        "course_section": "006",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 0,
+        "enrollment_available": 30,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20304,
+        "semester_code": 1228,
+        "course_section": "007",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 14,
+        "enrollment_available": 16,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20305,
+        "semester_code": 1228,
+        "course_section": "008",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 4,
+        "enrollment_available": 26,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 21149,
+        "semester_code": 1228,
+        "course_section": "009",
+        "subject": "MED",
+        "catalog_number": "9410",
+        "description": "Critical Care Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 2,
+        "enrollment_available": 28,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 21100,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9421",
+        "description": "Patient Student Partnership Post - Clerkship Phase",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 2,
+        "enrollment_available": 28,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20318,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9640",
+        "description": "Advanced Clinical Elective",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 14,
+        "enrollment_available": 16,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20319,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9640",
+        "description": "Advanced Clinical Elective",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 2,
+        "enrollment_available": 28,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20306,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 8,
+        "enrollment_available": 22,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20307,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20308,
+        "semester_code": 1228,
+        "course_section": "003",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 11,
+        "enrollment_available": 19,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20309,
+        "semester_code": 1228,
+        "course_section": "004",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20310,
+        "semester_code": 1228,
+        "course_section": "005",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 11,
+        "enrollment_available": 19,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20311,
+        "semester_code": 1228,
+        "course_section": "006",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20312,
+        "semester_code": 1228,
+        "course_section": "007",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 11,
+        "enrollment_available": 19,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20313,
+        "semester_code": 1228,
+        "course_section": "008",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20314,
+        "semester_code": 1228,
+        "course_section": "009",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 20,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20315,
+        "semester_code": 1228,
+        "course_section": "010",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20316,
+        "semester_code": 1228,
+        "course_section": "011",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 10,
+        "enrollment_available": 20,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20317,
+        "semester_code": 1228,
+        "course_section": "012",
+        "subject": "MED",
+        "catalog_number": "9657",
+        "description": "Emergency Medicine",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 3,
+        "enrollment_available": 27,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19089,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9669",
+        "description": "Electives Program I",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 114,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19539,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9669",
+        "description": "Electives Program I",
+        "units": "0",
+        "component": "LEC",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 35,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19090,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9671",
+        "description": "Electives Program III",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 124,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 20297,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9671",
+        "description": "Electives Program III",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 38,
+        "enrollment_available": 0,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19712,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9672",
+        "description": "Electives Program IV",
+        "units": "0",
+        "component": "CLN",
+        "class_capacity": 30,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 1,
+        "enrollment_available": 29,
+        "topic": "",
+        "meetings": []
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19093,
+        "semester_code": 1228,
+        "course_section": "001",
+        "subject": "MED",
+        "catalog_number": "9680",
+        "description": "Bedside to Community: Integrating Clinical Medicine and Population Health",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 200,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 116,
+        "enrollment_available": 84,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    },
+    {
+        "instructor": {
+            "name": "-",
+            "email": ""
+        },
+        "course_number": 19540,
+        "semester_code": 1228,
+        "course_section": "002",
+        "subject": "MED",
+        "catalog_number": "9680",
+        "description": "Bedside to Community: Integrating Clinical Medicine and Population Health",
+        "units": "0",
+        "component": "SEM",
+        "class_capacity": 100,
+        "wait_list": 0,
+        "wait_cap": 0,
+        "enrollment_total": 35,
+        "enrollment_available": 65,
+        "topic": "",
+        "meetings": [
+            {
+                "days": "-",
+                "start_time": "",
+                "end_time": "",
+                "facility_description": "-"
+            }
+        ]
+    }
+]
